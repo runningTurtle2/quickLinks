@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Main page</title>
+        <link href="./output.css" rel="stylesheet" />
+    </head>
+    <body class="bg-white w-sm h-16">
+        <div class="w-full max-w-sm mx-auto border p-4">
+            <form action="/home.html" class="space-y-4">
+                <label for="plug" class="block text-left font-medium"
+                    >Quick Links</label
+                >
+
+                <div
+                    class="w-full border rounded pl-4 pr-0 flex justify-between items-stretch text-sm h-12"
+                >
+                    <p id="target" class="self-center">Linkndin</p>
+                    <div class="flex h-full">
+                        <button
+                            class="border border-b-0 border-t-0 px-4 h-full hover:bg-gray-100"
+                        >
+                            <img
+                                src="icons/edit.png"
+                                alt="edit"
+                                class="h-6 w-6"
+                            />
+                        </button>
+                        <button
+                            id="btn-copy"
+                            class="px-4 h-full rounded-r hover:bg-gray-100"
+                        >
+                            <img
+                                src="icons/copy_content.png"
+                                alt="copy content"
+                                class="h-6 w-6"
+                            />
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <a
+                        href="/newLink.html"
+                        class="text-black text-lg hover:text-gray-400"
+                        >+ Link</a
+                    >
+                </div>
+
+                <div class="flex justify-end">
+                    <button
+                        id="btn-save"
+                        class="bg-black text-white font-medium py-2 px-4 rounded transition-colors hover:bg-gray-800"
+                    >
+                        Save
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
