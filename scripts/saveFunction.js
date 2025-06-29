@@ -2,5 +2,6 @@ document.getElementById("btn-save").addEventListener("click", () => {
   const platform = document.getElementById("plug").value;
   const url = document.getElementById("link").value;
 
-  alert(`${platform}: ${url}`);
+  localStorage.setItem(platform, url)
+  console.log(`${platform}: ${url}`);
 });

@@ -7,11 +7,11 @@
     "default_popup": "firstTime.html",
     "default_title": "Quick Links",
     "default_icon": {
-      "16": "icons/quickLink.png"
+      "16": "assets/icons/quickLink.png"
     }
   },
   "permissions": [],
   "icons": {
-    "16": "icons/quickLink.png"
+    "16": "assets/icons/quickLink.png"
   }
 }

@@ -1,51 +1,41 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>First Time Usage</title>
-        <link href="./output.css" rel="stylesheet" />
-    </head>
-    <body class="bg-white w-sm h-16">
-        <div class="w-full max-w-sm border p-4 shadow-md">
-            <form action="/main.html" class="space-y-4">
-                <div>
-                    <label for="plug" class="block mb-1 text-left font-medium"
-                        >Quick Links</label
-                    ><br />
-                    <select
-                        name="plug"
-                        id="plug"
-                        class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-black"
-                    >
-                        <option value="linkedin">LinkedIn</option>
-                        <option value="github">GitHub</option>
-                        <option value="portfolio">Portfolio</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
 
-                <div>
-                    <input
-                        type="text"
-                        placeholder="Paste URL"
-                        id="link"
-                        name="link"
-                        class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-black"
-                    />
-                </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Time Usage</title>
+    <link href="./output.css" rel="stylesheet" />
+</head>
 
-                <div class="flex justify-end">
-                    <button
-                        id="btn-save"
-                        class="bg-black text-white font-medium py-2 px-4 rounded transition-colors"
-                    >
-                        Save
-                    </button>
-                </div>
-            </form>
-        </div>
+<body class="bg-white w-sm h-16">
+    <div class="w-full max-w-sm border p-4 shadow-md">
+        <form action="/main.html" class="space-y-4">
+            <div>
+                <label for="plug" class="block mb-1 text-left font-medium">Quick Links</label><br />
+                <select name="plug" id="plug"
+                    class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-black">
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="github">GitHub</option>
+                    <option value="portfolio">Portfolio</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
 
-        <script src="index.js"></script>
-    </body>
+            <div>
+                <input type="text" placeholder="Paste URL" id="link" name="link"
+                    class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-black" />
+            </div>
+
+            <div class="flex justify-end">
+                <button id="btn-save" class="bg-black text-white font-medium py-2 px-4 rounded transition-colors">
+                    Save
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script src="scripts/saveFunction.js"></script>
+</body>
+
 </html>
