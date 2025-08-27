@@ -2,9 +2,9 @@
   "manifest_version": 3,
   "name": "Quick Links",
   "version": "1.0",
-  "description": "Save quick links like github profile, Linkndin, etc..",
+  "description": "A place to quickly store and copy links needed for job hunting as a software developer. No need to keep a second window open.",
   "action": {
-    "default_popup": "firstTime.html",
+    "default_popup": "main.html",
     "default_title": "Quick Links",
     "default_icon": {
       "16": "assets/icons/quickLink.png"

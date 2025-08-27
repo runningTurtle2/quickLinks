@@ -11,31 +11,13 @@
 <body class="bg-white w-sm h-16">
     <div class="w-full max-w-sm mx-auto border p-4">
         <form action="/edit.html" class="space-y-4">
-            <label for="plug" class="block text-left font-medium">Quick Links</label>
-
-            <div class="w-full border rounded pl-4 pr-0 flex justify-between items-stretch text-sm h-12">
-                <div id="links">
-
-                </div>
-                <p id="target" class="self-center">Linkndin</p>
-                <div class="flex h-full">
-                    <button id="btn-edit" class="border border-b-0 border-t-0 px-4 h-full hover:bg-gray-100">
-                        <img src="assets/icons/edit.png" alt="edit" class="h-6 w-6" />
-                    </button>
-                    <button id="btn-copy" class="px-4 h-full rounded-r hover:bg-gray-100">
-                        <img src="assets/icons/copy_content.png" alt="copy content" class="h-6 w-6" />
-                    </button>
-                </div>
-            </div>
-
+            <label class="block text-left font-medium">Quick Links</label>
+            <div id="links-container"></div>
             <div>
                 <a href="/newLink.html" class="text-black text-lg hover:text-gray-400">+ Link</a>
             </div>
-
         </form>
     </div>
-
     <script src="/scripts/main.js"></script>
 </body>
-
 </html>

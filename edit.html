@@ -4,23 +4,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Edit Page</title>
+  <title>Edit Link</title>
   <link href="./output.css" rel="stylesheet" />
 </head>
 
 <body class="bg-white w-sm h-16">
-  <form action="/main.html" class="space-y-4">
-    <label for="plug" class="block text-left font-medium">Quick Links</label>
+  <div class="w-full max-w-sm mx-auto border p-4 shadow-md">
+    <form id="edit-form" class="space-y-4">
+      <div>
+        <label for="edit-url" class="block mb-1 text-left font-bold">Edit Link</label>
+        <p id="edit-label" class="mb-2 text-gray-600"></p>
+        <a href="/main.html" class="block mb-1 text-left font-medium">Back</a>
+        <input type="text" id="edit-url" name="edit-url" placeholder="Enter new URL"
+          class="w-full border rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-black" />
+      </div>
 
-    <div class="w-full border rounded pl-4 pr-0 flex justify-between items-stretch text-sm h-12">
-      <p id="target" class="self-center">Linkndin</p>
-
-    </div>
-        <button id="btn-save" class="bg-black text-white font-medium py-2 px-4 rounded transition-colors">
+      <div class="flex justify-end">
+        <button type="submit" class="bg-black text-white font-medium py-2 px-4 rounded transition-colors">
           Save
         </button>
-
-  </form>
+      </div>
+    </form>
+  </div>
 
   <script src="scripts/edit.js"></script>
 </body>
