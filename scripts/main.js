@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     btnContainer.className = "flex h-full";
 
     const editBtn = document.createElement("button");
-    editBtn.className = "border border-b-0 border-t-0 px-4 h-full hover:bg-gray-100";
+    editBtn.className = "border border-b-0 border-t-0 px-4 h-full hover:bg-gray-400";
     editBtn.innerHTML = '<img src="assets/icons/edit.png" alt="edit" class="h-6 w-6" />';
     editBtn.addEventListener("click", (e) => {
       e.preventDefault();
@@ -30,13 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const copyBtn = document.createElement("button");
-    copyBtn.className = "px-4 h-full rounded-r hover:bg-gray-100";
+    copyBtn.className = "px-4 h-full rounded-r hover:bg-gray-400";
     copyBtn.innerHTML = '<img src="assets/icons/copy_content.png" alt="copy" class="h-6 w-6" />';
     copyBtn.addEventListener("click", (e) => {
       e.preventDefault();
-      navigator.clipboard.writeText(value).then(() => {
-        alert("Copied: " + value);
-      });
+      navigator.clipboard.writeText(value);
     });
 
     btnContainer.appendChild(editBtn);
