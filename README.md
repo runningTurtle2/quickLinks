@@ -21,12 +21,13 @@ No digging through bookmarks or keeping extra tabs open while applying for jobs.
 
 
 ## Screenshots
+## Screenshots
 #### Home
-[![alt text](Quicklinks_Home.png)](https://github.com/runningTurtle2/quickLinks/blob/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Home.png)
+[![alt text](https://raw.githubusercontent.com/runningTurtle2/quickLinks/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Home.png)](https://raw.githubusercontent.com/runningTurtle2/quickLinks/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Home.png)
 
 #### Add
-[![alt text](Quicklinks_Add.png)](https://github.com/runningTurtle2/quickLinks/blob/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Add.png)
-
+[![alt text](https://raw.githubusercontent.com/runningTurtle2/quickLinks/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Add.png)](https://raw.githubusercontent.com/runningTurtle2/quickLinks/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Add.png)
 
 #### Edit
-[![alt text](Quicklinks_Edit.png)](https://github.com/runningTurtle2/quickLinks/blob/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Edit.png)
+[![alt text](https://raw.githubusercontent.com/runningTurtle2/quickLinks/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Edit.png)](https://raw.githubusercontent.com/runningTurtle2/quickLinks/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Edit.png)
+
