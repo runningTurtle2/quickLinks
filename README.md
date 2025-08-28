@@ -21,7 +21,7 @@ No digging through bookmarks or keeping extra tabs open while applying for jobs.
 
 
 ## Screenshots
-## Screenshots
+
 #### Home
 [![alt text](https://raw.githubusercontent.com/runningTurtle2/quickLinks/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Home.png)](https://raw.githubusercontent.com/runningTurtle2/quickLinks/2f86d9db2cdc592af6b8fb2b4cd2e9b38c08f214/Quicklinks_Home.png)
 
