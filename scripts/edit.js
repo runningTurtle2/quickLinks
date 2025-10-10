@@ -30,3 +30,5 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "/main.html";
   });
 });
+
+// test
